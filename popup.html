@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do list</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/5744ad0b75.js" crossorigin="anonymous"></script> 
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://kit.fontawesome.com/5744ad0b75.js">
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+      <h1>To-Do list</h1>
+      <p id="first">Enter Text into input field to add items to your list</p>
+      <p id="second">Click the item to mark it as complete</p>
+      <p id="third">Click "X" to remove item from your list</p>
+
+      <div class="add-item">
+          <input type="text" id="userInput" placeholder="New Item" maxlength="30">
+          <button id="enter"><i class="fas fa-pen-square"></i></button>
+      </div>
+      <div class="empty-list">
+          <ul class="list-item"></ul>
+      </div>
+      <script type="text/javascript" src="main.js"></script>
+
+  </body>
